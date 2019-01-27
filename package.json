@@ -7,7 +7,8 @@
     "format": "prettier --write \"./**/*.{js,jsx,json,css}\"",
     "format:check": "prettier --list-different \"./**/*.{js,jsx,json,css}\"",
     "lint": "eslint \"**/*.{js,jsx}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,11 @@
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "parcel-bundler": "^1.11.0",
     "prettier": "^1.16.1"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }
