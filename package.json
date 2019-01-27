@@ -1,0 +1,21 @@
+{
+  "name": "pure-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,jsx,json,css}\"",
+    "format:check": "prettier --list-different \"./**/*.{js,jsx,json,css}\"",
+    "lint": "eslint \"**/*.{js,jsx}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.1"
+  }
+}
