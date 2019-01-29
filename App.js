@@ -46,7 +46,7 @@ class App extends React.Component {
             if (Array.isArray(pet.breeds.breed)) {
               breed = pet.breeds.breed.join(", ");
             } else {
-              breed = pet.breeds.bred;
+              breed = pet.breeds.breed;
             }
             return (
               <Pet
@@ -54,6 +54,8 @@ class App extends React.Component {
                 animal={pet.animal}
                 name={pet.name}
                 breed={breed}
+                media={pet.media}
+                location={`${pet.contact.city}, ${pet.contact.state}`}
               />
             );
           })}
